@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOX/INFO — Optimización, Antivirus y Ofimática</title>
+  <meta name="description" content="Descargas de optimizador, antivirus y paquete ofimático con guía de uso.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {background-color: #f3f6fa; color: #333;}
+    header {background-color: #0a0a0a;color: white;display: flex;align-items: center;justify-content: space-between;padding: 15px 40px;box-shadow: 0 4px 8px rgba(0,0,0,0.2);position: sticky;top: 0;z-index: 100;}
+    header img {height: 60px;}
+    nav ul {list-style: none;display: flex;gap: 30px;}
+    nav a {text-decoration: none;color: white;font-weight: 500;transition: 0.3s;}
+    nav a:hover {color: #00bcd4;}
+    .hero {background: linear-gradient(135deg, #00bcd4, #007bff);color: white;text-align: center;padding: 80px 20px;}
+    .hero h1 {font-size: 2.8em;margin-bottom: 15px;}
+    .section {max-width: 1000px;margin: 50px auto;padding: 20px;background: white;border-radius: 15px;box-shadow: 0 5px 15px rgba(0,0,0,0.1);}
+    .section h2 {text-align: center;margin-bottom: 25px;color: #007bff;}
+    .service-card {background: #f9f9f9;border-radius: 10px;padding: 20px;text-align: center;margin-bottom: 20px;transition: transform 0.3s;}
+    .service-card:hover {transform: scale(1.03);}
+    .service-card h3 {margin-bottom: 10px;color: #333;}
+    .btn-descarga {background-color: #007bff;color: white;padding: 10px 20px;border: none;border-radius: 8px;cursor: pointer;text-decoration: none;font-weight: 500;transition: background 0.3s;}
+    .btn-descarga:hover {background-color: #00bcd4;}
+    footer {text-align: center;background-color: #0a0a0a;color: white;padding: 20px 0;margin-top: 40px;}
+    footer p {font-size: 0.9em;}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LogoBOXINFO.png" alt="Logo BOX/INFO">
+    <nav>
+      <ul>
+        <li><a href="#optimizador">Optimizador</a></li>
+        <li><a href="#antivirus">Antivirus</a></li>
+        <li><a href="#ofimatica">Ofimática</a></li>
+        <li><a href="#guia">Guía</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>BOX/INFO — Centro de Descargas</h1>
+    <p>Descarga herramientas de optimización, antivirus y ofimática con una guía práctica de uso.</p>
+  </section>
+
+  <section id="optimizador" class="section">
+    <h2>🔧 Optimizador</h2>
+    <div class="service-card">
+      <h3>PC Cleaner</h3>
+      <p>Herramienta para limpiar y optimizar el rendimiento de tu PC.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/PC_Cleaner_setup.exe" class="btn-descarga" download>Descargar PC Cleaner</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="antivirus" class="section">
+    <h2>🛡️ Antivirus</h2>
+    <div class="service-card">
+      <h3>Security Defender</h3>
+      <p>Protección avanzada contra virus, malware y amenazas en línea.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/Security_Defender_setup.exe" class="btn-descarga" download>Descargar Antivirus</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="ofimatica" class="section">
+    <h2>📄 Paquete Ofimático</h2>
+    <div class="service-card">
+      <h3>OfficeBOX</h3>
+      <p>Paquete ofimático completo con procesador de texto, hojas de cálculo y presentaciones.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/OfficeBOX_setup.exe" class="btn-descarga" download>Descargar OfficeBOX</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="guia" class="section">
+    <h2>📘 Manual de uso — Optimización, Antivirus y Herramientas Ofimáticas</h2>
+    <p style="text-align:center; color:#333; margin-bottom:20px;">
+      Visualiza o descarga la guía completa de uso de las herramientas BOX/INFO.
+    </p>
+    <div style="text-align:center; margin-bottom:25px;">
+      <a href="Manual_BOX_INFO.pdf.pdf" download class="btn-descarga">⤓ Descargar Manual (PDF)</a>
+    </div>
+    <iframe src="Manual_BOX_INFO.pdf.pdf#toolbar=0" width="100%" height="600" style="border:1px solid #e5e7eb; border-radius:8px;"></iframe>
+    <p style="font-size:0.9em; text-align:center; color:#555; margin-top:10px;">
+      Si el visor no se muestra correctamente,
+      <a href="Manual_BOX_INFO.pdf.pdf" target="_blank" rel="noopener" style="color:#007bff;">haz clic aquí para abrir el manual en una nueva pestaña.</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 BOX/INFO — Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
